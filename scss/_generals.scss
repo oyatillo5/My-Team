@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+body {
+  background-color: #014e56;
+}
+.btn {
+  padding: 10px 32px;
+  border: 2px solid #fff;
+  background-color: transparent;
+  border-radius: 25px;
+  font-family: "Livvic", monospace;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  color: #fff;
+}
