@@ -1,0 +1,38 @@
+.ready__title {
+  font-family: "Livvic";
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+  color: #012f34;
+}
+.ready__section {
+  padding: 76px;
+  background-color: #f67e7e;
+  background-image: url("../../img/ready__bg.png");
+  background-repeat: no-repeat;
+  background-position: calc(50% - 675px);
+  background-position-y: bottom;
+  background-size: 200px 122px;
+}
+.ready_btn {
+  border-color: #012f34;
+  color: #012f34;
+}
+.ready__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media only screen and (max-width: 900px) {
+  .ready__title {
+    font-size: 32px;
+    line-height: 32px;
+  }
+}
+@media only screen and (max-width: 680px) {
+  .ready__wrapper {
+    flex-direction: column;
+    text-align: center;
+    gap: 24px;
+  }
+}

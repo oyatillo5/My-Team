@@ -1,0 +1,46 @@
+.footer__section {
+  padding: 48px;
+}
+.footer__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer__left {
+  display: flex;
+  align-items: center;
+  gap: 125px;
+}
+.footer__nav-list {
+  display: flex;
+  gap: 40px;
+  margin-top: 25px;
+}
+.footer__nav-item {
+  font-family: "Livvic";
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  color: #fff;
+}
+.footer__left_text {
+  font-family: "Livvic";
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 25px;
+  color: #ffffff60;
+  width: 150px;
+}
+.footer__icon {
+  display: flex;
+  gap: 16px;
+  justify-content: end;
+  margin-bottom: 51px;
+}
+.footer__right-text {
+  font-family: "Livvic";
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 25px;
+  color: #ffffff60;
+}

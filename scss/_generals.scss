@@ -18,4 +18,13 @@ body {
   font-weight: 600;
   line-height: 28px;
   color: #fff;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: #13494f;
+  color: #fff;
+}
+.btn:active {
+  background-color: #002d32;
+  color: #fff;
 }

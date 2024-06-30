@@ -24,6 +24,17 @@ body {
   font-weight: 600;
   line-height: 28px;
   color: #fff;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #13494f;
+  color: #fff;
+}
+
+.btn:active {
+  background-color: #002d32;
+  color: #fff;
 }
 
 .container {
@@ -326,4 +337,99 @@ body {
     font-size: 32px;
     line-height: 32px;
   }
+}
+.ready__title {
+  font-family: "Livvic";
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+  color: #012f34;
+}
+
+.ready__section {
+  padding: 76px;
+  background-color: #f67e7e;
+  background-image: url("../../img/ready__bg.png");
+  background-repeat: no-repeat;
+  background-position: calc(50% - 675px);
+  background-position-y: bottom;
+  background-size: 200px 122px;
+}
+
+.ready_btn {
+  border-color: #012f34;
+  color: #012f34;
+}
+
+.ready__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media only screen and (max-width: 900px) {
+  .ready__title {
+    font-size: 32px;
+    line-height: 32px;
+  }
+}
+@media only screen and (max-width: 680px) {
+  .ready__wrapper {
+    flex-direction: column;
+    text-align: center;
+    gap: 24px;
+  }
+}
+.footer__section {
+  padding: 48px;
+}
+
+.footer__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__left {
+  display: flex;
+  align-items: center;
+  gap: 125px;
+}
+
+.footer__nav-list {
+  display: flex;
+  gap: 40px;
+  margin-top: 25px;
+}
+
+.footer__nav-item {
+  font-family: "Livvic";
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  color: #fff;
+}
+
+.footer__left_text {
+  font-family: "Livvic";
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 25px;
+  color: rgba(255, 255, 255, 0.3764705882);
+  width: 150px;
+}
+
+.footer__icon {
+  display: flex;
+  gap: 16px;
+  justify-content: end;
+  margin-bottom: 51px;
+}
+
+.footer__right-text {
+  font-family: "Livvic";
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 25px;
+  color: rgba(255, 255, 255, 0.3764705882);
 }/*# sourceMappingURL=main.css.map */
