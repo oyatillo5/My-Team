@@ -17,6 +17,17 @@
 .ready_btn {
   border-color: #012f34;
   color: #012f34;
+  transition: all 0.2s;
+  &:hover {
+    border-color: #fff;
+    color: #fff;
+    background-color: transparent;
+  }
+  &:active {
+    border-color: #d3d2d2;
+    color: #d3d2d2;
+    background-color: transparent;
+  }
 }
 .ready__wrapper {
   display: flex;
